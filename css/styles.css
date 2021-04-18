@@ -332,7 +332,16 @@ ul {
   margin-top: 10px;
 }
 
+.form-item-title {
+  display: block;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+}
+
 .form-label {
+  stroke: none;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
@@ -342,7 +351,7 @@ ul {
 .form-input {
   display: block;
   width: 448px;
-  padding: 11px 0 11px 42px;
+  padding: 10px 5px 10px 42px;
   font-family: Roboto, sans-serif;
   font-size: 14px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -353,6 +362,7 @@ ul {
   position: relative;
   display: block;
   margin-top: 4px;
+  transition: outline var(--animation-var), fill var(--animation-var);
 }
 
 .form-group:focus-within {
@@ -409,6 +419,8 @@ ul {
   border: none;
   background-color: var(--accent-color);
   background-image: url(/images/icon-check.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .agreement-checkbox {
