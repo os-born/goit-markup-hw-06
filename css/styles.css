@@ -419,8 +419,6 @@ ul {
   border: none;
   background-color: var(--accent-color);
   background-image: url(/images/icon-check.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 
 .agreement-checkbox {
