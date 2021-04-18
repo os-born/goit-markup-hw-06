@@ -408,8 +408,7 @@
                                 class="input-email" 
                                 type="email" 
                                 name="email" 
-                                autocomplete="off" 
-                                novalidate 
+                                autocomplete="off"
                                 placeholder="E-mail">
                             </label>
                             <button class="btn-subsribe flex" type="submit">
@@ -431,12 +430,12 @@
                     <use href="./images/icons.svg#modal-close-button"></use>
                 </svg>
             </button>
-            <form class="form-order">
+            <form class="form-order" novalidate>
                     <p class="form-title">Оставьте свои данные, мы вам перезвоним</p>
                     <div class="form-block">
                         <label class="form-label">
                             <span class="form-item-title">Имя</span> 
-                            <div class="form-group">
+                            <span class="form-group">
                                 <input 
                                 class="form-input" 
                                 type="text" 
@@ -445,47 +444,47 @@
                                 <svg class="form-logo" width="18px" height="18px">
                                     <use href="./images/icons.svg#form-person-black"></use>
                                 </svg>
-                            </div>
+                            </span>
                         </label>
                     </div>
                     <div class="form-block">
                         <label class="form-label">
                             <span class="form-item-title">Телефон</span>
-                            <div class="form-group">
+                            <span class="form-group">
                                 <input class="form-input" type="tel" name="tel" autocomplete="off">
                                 <svg class="form-logo" width="18px" height="18px">
                                     <use href="./images/icons.svg#form-phone-black"></use>
                                 </svg>
-                            </div>
+                            </span>
                         </label>
                     </div>
                     <div class="form-block">
                         <label class="form-label">
                             <span class="form-item-title">Почта</span>
-                            <div class="form-group">
+                            <span class="form-group">
                                 <input class="form-input" type="email" name="email" autocomplete="off">
                                 <svg class="form-logo" width="18px" height="18px">
                                     <use href="./images/icons.svg#form-email-black"></use>
                                 </svg>
-                            </div>
+                            </span>
                         </label>
                     </div>
                     <div class="form-block">
                         <label class="form-label">
                             <span class="form-item-title">Комментарий</span>
-                            <div class="form-group">
+                            <span class="form-group">
                                 <textarea class="form-input-comment" rows="6" name="comment" placeholder="Введите текст"></textarea>
-                            </div>
+                            </span>
                         </label>
                     </div>
                     <div class="form-block-agreement">
                         <label>
-                            <div class="checkbox-group flex">
+                            <span class="checkbox-group flex">
                                 <input type="checkbox" name="agreement" class="agreement-checkbox">
                                 <span class="checkbox-icon"></span>
                                 <span class="agreement-text">Соглашаюсь с рассылкой и принимаю</span>
                                 <a href="#" class="agreement-link">Условия договора</a>
-                            </div>
+                            </span>
                         </label>
                     </div>
                 <button class="btn-form-submit" type="submit">
