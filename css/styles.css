@@ -418,7 +418,6 @@ ul {
 .agreement-checkbox:checked + .checkbox-icon {
   border: none;
   background-color: var(--accent-color);
-  background-image: url(/images/icon-check.svg);
 }
 
 .agreement-checkbox {
